@@ -15,8 +15,8 @@ def file_exists(url):
 def download_files_from_url(csv_path, download_dir):
     print(f"Files will be downloaded to: {download_dir}")
     
-    # Define the file types to download for each ID
-    file_types = ["nee1.pdf", "asss.pdf", "aa.pdf"]
+    # Define the file types to download for each ID, "asss.pdf", "aa.pdf"
+    file_types = ["nee1.pdf"]
     
     try:
         # Read the CSV file
